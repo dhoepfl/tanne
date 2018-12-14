@@ -1,0 +1,42 @@
+# Site settings
+title:          Tanne
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tanne"
+url:            "https://dhoepfl.github.io"
+
+# Google Analytics
+#google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Daniel Höpfl
+  url:          https://hoepfl.de
+  email:        daniel@hoepfl.de
+
+# Site logo
+navicon:
+  url:          "/tanne/assets/apple-touch-icon.png"
+  rounded:      false
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year/:month/:day/:title
+
+paginate:       2
+paginate_path:  /page/:num

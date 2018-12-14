@@ -1,0 +1,18 @@
+<nav class="nav">
+  <div class="nav-container">
+    <a class="nav-link" href="{{ site.baseurl }}/">
+{%- if site.navicon.url -%}
+      <div class="nav-logo {% if site.navicon.rounded -%} nav-logo-rounded {%- endif %}"
+           style="background-image: url('{{ site.navicon.url }}');"></div>
+{%- endif -%}
+      <h2 class="nav-title">{{ site.title }}</h2>
+    </a>
+    <ul>
+{%- for page in site.pages | sort:"name" -%}
+   {%- if page.include_in_navigation -%}
+      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+   {%- endif -%}
+{%- endfor -%}
+    </ul>
+  </div>
+</nav>
