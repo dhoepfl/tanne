@@ -65,10 +65,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt orna
 
 # Links
 {% highlight markdown %}
-Check out tale on [GitHub](https://github.com/chesterhow/tale).
+Check out Tanne on [GitHub](https://github.com/dhoepfl/tanne).
 {% endhighlight %}
 
-Check out tale on [GitHub](https://github.com/chesterhow/tale).
+Check out Tanne on [GitHub](https://github.com/dhoepfl/tanne).
 
 # Images
 {% highlight markdown %}
