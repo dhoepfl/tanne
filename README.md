@@ -2,7 +2,7 @@
 
 [![GitHub version](https://badge.fury.io/gh/dhoepfl%2Ftanne.svg)](https://badge.fury.io/gh/dhoepfl%2Ftanne)
 
-Tanne is a minimal Jekyll theme. Checkout the demo [here](https://dhoepfl.github.io/tanne/).
+Tanne is a minimal Jekyll 3/4 theme. Checkout the demo [here](https://dhoepfl.github.io/tanne/).
 
 ## Features
 - Easy installation

@@ -13,7 +13,7 @@ Tanne is a minimal [Jekyll](https://jekyllrb.com/) theme, based on [Tale](https:
    - Markdown and HTML text formatting
    - Pagination of posts
 
-   Head over to the [Example Content]({{ site.baseurl }}{% post_url 2018-12-11-example-content %}) post for a showcase of Tanne's text formatting features.
+   Head over to the [Example Content]({% if jekyll.version < "4.0" %}{{ site.baseurl }}{% endif %}{% post_url 2018-12-11-example-content %}) post for a showcase of Tanne's text formatting features.
 
 ## Browser Support
 
