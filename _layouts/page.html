@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
+  {{ page.title | prepend: '<h1 class="page-title" markdown="1">' | append: '</h1>' | markdownify }}
   <div class="page-line"></div>
 
   {{ content }}

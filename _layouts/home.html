@@ -7,7 +7,7 @@ layout: default
     <a href="{{ post.url | relative_url }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
+        {{ post.title | prepend: '<h1 class="catalogue-title" markdown="1">' | append: '</h1>' | markdownify }}
         <div class="catalogue-line"></div>
 
         <p>
