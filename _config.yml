@@ -7,6 +7,9 @@ url:            "https://dhoepfl.github.io"
 # Google Analytics
 #google_analytics: UA—XXXXXXXX-X
 
+# Additional data to includ ein the HTML header
+#additional_header_include: myheader.html
+
 # Author
 author:
   name:         Daniel Höpfl

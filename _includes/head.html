@@ -17,8 +17,13 @@
   <!-- RSS -->
   {% feed_meta %}
 
-  <!-- Google Analytics-->
   {% if site.google_analytics and jekyll.environment == 'production' %}
+  <!-- Google Analytics-->
   {% include analytics.html %}
+  {% endif %}
+
+  {% if site.additional_header_include %}
+  <!-- Additional headers -->
+  {% include {{site.additional_header_include}} %}
   {% endif %}
 </head>
